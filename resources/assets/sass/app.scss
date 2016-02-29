@@ -1,0 +1,72 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+    
+    padding-top: 40px;
+    
+}
+
+#logo {
+    
+    width: 150px;
+    
+}
+
+.footer a {
+    
+    color:black;
+    
+}
+
+#dropdownMenu1 {
+    
+    width:30%; 
+    height:55px; 
+    background-color: rgba(0,0,0,.1);
+    color:white;
+    
+}
+
+#dropdownMenu-text {
+    
+    font-size:175%; 
+    white-space:normal;
+    
+}
+
+#dropdownMenu-caret {
+    
+    border-width:10px; 
+    margin-top:-10px; 
+    margin-left:5px;
+    
+}
+
+#dropdownMenu-options {
+    
+    width:30%; 
+    left:auto !important; 
+    right:35% !important;
+    
+}
+
+.contact-info-row {
+    
+    margin-top:50px;
+    
+}
+
+.contact-info-card {
+    
+    color:#e1e1e1; 
+    margin-top:10px
+    
+}
+
+#vitals-bar {
+    
+    padding-top:13px; 
+    padding-bottom:0px; 
+    color:#e1e1e1;
+    
+}

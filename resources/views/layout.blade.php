@@ -31,15 +31,15 @@
        <hr class="divider">
        <div class="row marketing footer">
            <div class="col-lg-6">
-             <h5><a href="http://www.cit.site/download/w9" target="_blank">Download W-9</a></h5>
+             <h5><a href="http://www.citmontana.com/download/w9" target="_blank">Download W-9</a></h5>
 
              <!-- <h5><a href="#">Upcoming Academies</a></h5> -->
          
              <!-- <h5><a href="#">About Us</a></h5> -->
          
-             <a href="http://www.cit.site/facebook" target="_blank"><i class="fa fa-facebook-official"></i></a>
+             <a href="http://www.citmontana.com/facebook" target="_blank"><i class="fa fa-facebook-official"></i></a>
              
-             <a href="http://www.cit.site/instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+             <a href="http://www.citmontana.com/instagram" target="_blank"><i class="fa fa-instagram"></i></a>
            </div>
         </div>
     </div>

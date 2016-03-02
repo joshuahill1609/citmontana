@@ -82,18 +82,18 @@
 An exercise that Gallatin County Sheriff’s Sgt. Jim Anderson gives his Crisis Intervention Team training participants includes audio that simulates what it could be like...
 
  </p>
-                  <p><a class="btn btn-default" href="http://www.cit.site/news/1" target="_blank" role="button">Read More &raquo;</a></p>
+                  <p><a class="btn btn-default" href="http://www.citmontana.com/news/1" target="_blank" role="button">Read More &raquo;</a></p>
                 </div>
                 <div class="col-md-4">
                   <h2>Wisetail Works</h2>
                   <p>(Bozeman, Mont.) – Bozeman technology firm, Wisetail, announced a $100,000 grant to Montana’s Crisis Intervention Team while launching the company’s new social, economic and environmental giving arm “Wisetail Works.” Montana-native Justin Bigart bucked the Silicon Valley tech startup culture by building Wisetail without venture capital, dedicated to being an independent, profitable and self-funded company. Since its inception in 2008...</p>
-                  <p><a class="btn btn-default" href="http://www.cit.site/news/2" target="_blank" role="button">Read More &raquo;</a></p>
+                  <p><a class="btn btn-default" href="http://www.citmontana.com/news/2" target="_blank" role="button">Read More &raquo;</a></p>
                </div>
                 <div class="col-md-4">
                   <h2>Emergency responders take crisis intervention training</h2>
                   <p>KALISPELL, Mont. -
 For the first time, emergency responders took part in a week-long training course that focuses on mental health-related crises.The course is hosted by the Flathead County Sheriff's Office, as well as the Crisis Intervention Team and the Western Montana Mental Health Center...</p>
-                  <p><a class="btn btn-default" href="http://www.cit.site/news/3" target="_blank" role="button">Read More &raquo;</a></p>
+                  <p><a class="btn btn-default" href="http://www.citmontana.com/news/3" target="_blank" role="button">Read More &raquo;</a></p>
                 </div>
               </div>
             

@@ -124,6 +124,12 @@ class County {
                 $contact['number'] = "";
                 $contact['email']  = "Jim.Anderson@gallatin.mt.gov";
                 break;
+            default:
+                $contact['name']   = "Not Available";
+                $contact['number'] = "";
+                $contact['email']  = "";
+                break;
+                
         }
         
         return $contact;
@@ -223,6 +229,12 @@ class County {
                 $contact['number'] = "";
                 $contact['email']  = "ingridhill.cit@gmail.com";
                 break;
+            default: 
+                $contact['name']   = "Not Available";
+                $contact['number'] = "";
+                $contact['email']  = "";
+                break;
+                
         }
         
         return $contact;

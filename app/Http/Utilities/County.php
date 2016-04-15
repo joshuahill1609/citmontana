@@ -272,6 +272,10 @@ class County {
                 $academy['date']     = "";
                 break;
                 
+            default:
+                $academy['location'] = "";
+                $academy['date']     = "";
+                break;
                 
         }
         

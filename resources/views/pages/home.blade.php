@@ -54,6 +54,9 @@
            <div class="col-md-6">
                <p> <strong>C.I.T. Montana</strong> is an umbrella group that coordinates CIT training and development across the state. CIT programs are local initiatives built on strong partnerships between law enforcement, mental health providers, and individuals and families affected by mental illness. The C.I.T system attempts to divert mentally-ill individuals from the Montana State Hospital and the criminal justice system when possible and safe, and instead connect them to appropriate local mental health services that allow them to stay in their communities.
                </p>
+               <p>
+                    What is a CIT Officer? A CIT Officer thinks big picture, long term, and often outside the box to do what is right for the individual/community. A CIT Officer takes ownership and does not point fingers or blame. Asking himself/herself what more can I do to help this individual/community. A CIT Officer recognizes EVERY individual as a human being (what if this was my family member) accepting and respecting others as they are without judgement or evaluation. A CIT Officer strives to have a lasting positive affect on every situation he/she is a part of. 
+                </p>
            </div>
            <div class="col-md-3">
            </div>
@@ -62,13 +65,13 @@
        <div class="jumbotron" id="vitals-bar" style="background-image: url(img/cit_background_4.jpg);">
               <div class="row">
                 <div class="col-md-4 text-center">
-                    <p><strong>6 Counties</strong></p>
+                    <p><strong>34 Counties</strong></p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <p><strong>100+ Officers</strong></p>
+                    <p><strong>600+ Officers</strong></p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <p><strong>Countless Lives Saved</strong></p>
+                    <p><strong>Supporting Community Wellness</strong></p>
                 </div>
               </div>
        </div>

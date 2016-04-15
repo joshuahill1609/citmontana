@@ -18,10 +18,13 @@ class County {
         switch ($county) {
             case "Gallatin":
                 $contact['name']   = "Jim Anderson";
-                $contact['number'] = "406.580.2543";
+                $contact['number'] = "";
                 $contact['email']  = "Jim.Anderson@gallatin.mt.gov";
                 break;
             case "Flathead":
+            case "Lake":
+            case "Sanders":
+            case "Lincoln":
                 $contact['name']   = "Sgt. Nick Salois";
                 $contact['number'] = "";
                 $contact['email']  = "nsalois@flathead.mt.gov";
@@ -32,11 +35,20 @@ class County {
                 $contact['email']  = "jjwilliams@bsb.mt.gov";
                 break;
             case "Yellowstone":
+            case "Big Horn":
+            case "Carbon":
+            case "Stillwater":
+            case "Sweet Grass":
+            case "Golden Valley":
+            case "Musselshell":
+            case "Treasure":
                 $contact['name']   = "Del Kuntz";
                 $contact['number'] = "";
                 $contact['email']  = "kuntzd@ci.billings.mt.us";
                 break;
             case "Missoula":
+            case "Granite":
+            case "Mineral":
                 $contact['name']   = "Officer Ben Slater";
                 $contact['number'] = "";
                 $contact['email']  = "bslater@ci.missoula.mt.us";
@@ -47,6 +59,11 @@ class County {
                 $contact['email']  = "dmendonca@rc.mt.gov";
                 break;
             case "Cascade":
+            case "Teton":
+            case "Chouteau":
+            case "Pondera":
+            case "Toole":
+            case "Glacier":
                 $contact['name']   = "Bob Rosipal";
                 $contact['number'] = "";
                 $contact['email']  = "brosipal@cascadecountymt.gov";
@@ -57,6 +74,47 @@ class County {
                 $contact['email']  = "Jim.Anderson@gallatin.mt.gov";
                 break;
             case "Lewis and Clark":
+                $contact['name']   = "Sgt. Shane Hildenstab";
+                $contact['number'] = "";
+                $contact['email']  = "shildenstab@lccountymt.gov";
+                break;
+            case "Park":
+            case "South Madison":
+            case "Wheatland":
+            case "Judith Basin":
+            case "Petroleum":
+            case "Custer":
+            case "Rosebud":
+            case "Powder River":
+            case "Carter":
+            case "Fallen":
+            case "Prairie":
+            case "Hill":
+            case "Liberty":
+            case "Blaine":
+            case "Phillips":
+            case "Dawson":
+            case "McCone":
+            case "Valley":
+            case "Daniels":
+            case "Sheridan":
+            case "Roosevelt":
+            case "Richland":
+            case "Wibaux":
+                $contact['name']   = "Jim Anderson";
+                $contact['number'] = "";
+                $contact['email']  = "Jim.Anderson@gallatin.mt.gov";
+                break;
+            case "South Jefferson":
+            case "North Madison":
+            case "Powell":
+                $contact['name']   = "Lt. Jeffery Williams";
+                $contact['number'] = "";
+                $contact['email']  = "jjwilliams@bsb.mt.gov";
+                break;
+            case "Broadwater":
+            case "Meagher":
+            case "North Jefferson":
                 $contact['name']   = "Sgt. Shane Hildenstab";
                 $contact['number'] = "";
                 $contact['email']  = "shildenstab@lccountymt.gov";
@@ -80,21 +138,36 @@ class County {
                 $contact['email']  = "smaroney@wmmhc.org";
                 break;
             case "Flathead":
+            case "Lake":
+            case "Sanders":
+            case "Lincoln":
                 $contact['name']   = "Annette Darkenwald, LCSW";
                 $contact['number'] = "";
                 $contact['email']  = "adarkenwal@wmmhc.org";
                 break;
             case "Butte-Silver Bow":
+            case "South Jefferson":
+            case "North Madison":
+            case "Powell":
                 $contact['name']   = "Lyn Ankelman, LCPC";
                 $contact['number'] = "";
                 $contact['email']  = "lankelman@wmmhc.org";
                 break;
             case "Yellowstone":
+            case "Big Horn":
+            case "Carbon":
+            case "Stillwater":
+            case "Sweet Grass":
+            case "Golden Valley":
+            case "Musselshell":
+            case "Treasure":
                 $contact['name']   = "Marcee Farrar-Neary, LCPC";
                 $contact['number'] = "";
                 $contact['email']  = "mfarrarneary@billingsclinic.org";
                 break;
             case "Missoula":
+            case "Granite":
+            case "Mineral":
                 $contact['name']   = "Theresa Williams, LCSW";
                 $contact['number'] = "";
                 $contact['email']  = "twilliams@wmmhc.org";
@@ -105,16 +178,42 @@ class County {
                 $contact['email']  = "kismith@wmmhc.org";
                 break;
             case "Cascade":
-                $contact['name']   = "Not Available";
-                $contact['number'] = "";
-                $contact['email']  = "";
-                break;
             case "Fergus":
+            case "Teton":
+            case "Chouteau":
+            case "Pondera":
+            case "Toole":
+            case "Glacier":
+            case "Park":
+            case "South Madison":
+            case "Wheatland":
+            case "Judith Basin":
+            case "Petroleum":
+            case "Custer":
+            case "Rosebud":
+            case "Powder River":
+            case "Carter":
+            case "Fallen":
+            case "Prairie":
+            case "Hill":
+            case "Liberty":
+            case "Blaine":
+            case "Phillips":
+            case "Dawson":
+            case "McCone":
+            case "Valley":
+            case "Daniels":
+            case "Sheridan":
+            case "Roosevelt":
+            case "Richland":
+            case "Wibaux":
                 $contact['name']   = "Not Available";
                 $contact['number'] = "";
                 $contact['email']  = "";
                 break;
             case "Lewis and Clark":
+            case "Meagher":
+            case "North Jefferson":
                 $contact['name']   = "Jadin Van Steenvort, LCSW";
                 $contact['number'] = "";
                 $contact['email']  = "jadinvan@gmail.com";
@@ -158,11 +257,11 @@ class County {
                 break;
             case "Cascade":
                 $academy['location'] = "TBD";
-                $academy['date']     = "TBD";
+                $academy['date']     = "";
                 break;
             case "Fergus":
                 $academy['location'] = "TBD";
-                $academy['date']     = "TBD";
+                $academy['date']     = "";
                 break;
             case "Lewis and Clark":
                 $academy['location'] = "Helena";

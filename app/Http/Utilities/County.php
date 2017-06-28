@@ -42,9 +42,9 @@ class County {
             case "Golden Valley":
             case "Musselshell":
             case "Treasure":
-                $contact['name']   = "Del Kuntz";
+                $contact['name']   = "Adam Lauwers";
                 $contact['number'] = "";
-                $contact['email']  = "kuntzd@ci.billings.mt.us";
+                $contact['email']  = "alauwers@co.yellowstone.mt.gov";
                 break;
             case "Missoula":
             case "Granite":
@@ -147,9 +147,9 @@ class County {
             case "Lake":
             case "Sanders":
             case "Lincoln":
-                $contact['name']   = "Annette Darkenwald, LCSW";
+                $contact['name']   = "Jami Flickinger";
                 $contact['number'] = "";
-                $contact['email']  = "adarkenwal@wmmhc.org";
+                $contact['email']  = "jflickinger@wmmhc.org";
                 break;
             case "Butte-Silver Bow":
             case "South Jefferson":
@@ -174,22 +174,26 @@ class County {
             case "Missoula":
             case "Granite":
             case "Mineral":
-                $contact['name']   = "Theresa Williams, LCSW";
+                $contact['name']   = "Amy Chesebro";
                 $contact['number'] = "";
-                $contact['email']  = "twilliams@wmmhc.org";
+                $contact['email']  = "achesebro@wmmhc.org";
                 break;
             case "Ravalli":
-                $contact['name']   = "Kimber Smith, LCSW";
+                $contact['name']   = "Tammy Olds";
                 $contact['number'] = "";
-                $contact['email']  = "kismith@wmmhc.org";
+                $contact['email']  = "tolds@wmmhc.org";
                 break;
             case "Cascade":
-            case "Fergus":
-            case "Teton":
             case "Chouteau":
+            case "Teton":
             case "Pondera":
             case "Toole":
             case "Glacier":
+                $contact['name']   = "Julie Prigmore, LCPC";
+                $contact['number'] = "";
+                $contact['email']  = "juliep@center4mh.org";
+                break;
+            case "Fergus":
             case "Park":
             case "South Madison":
             case "Wheatland":
@@ -244,40 +248,62 @@ class County {
     {
         switch ($county) {
             case "Gallatin":
+            case "South Madison":
+            case "Meager":
                 $academy['location'] = "Bozeman";
-                $academy['date']     = "Feb. 13-17, 2017";
+                $academy['date']     = "Feb. 12-16, 2018";
                 break;
             case "Flathead":
+            case "Lake":
+            case "Sanders":
+            case "Lincoln":
                 $academy['location'] = "Kalispell";
-                $academy['date']     = "Oct. 3-7, 2016";
+                $academy['date']     = "Oct. 16-20, 2017";
                 break;
             case "Butte-Silver Bow":
+            case "Powell":
+            case "North Madison":
                 $academy['location'] = "Butte";
-                $academy['date']     = "Jan. 9-13, 2017";
+                $academy['date']     = "Jan. 8-12, 2018";
                 break;
             case "Yellowstone":
+            case "Big Horn":
+            case "Carbon":
+            case "Stillwater":
+            case "Sweet Grass":
+            case "Golden Valley":
+            case "Musselshell":
+            case "Treasure":
                 $academy['location'] = "Billings";
-                $academy['date']     = "Sept. 19-23, 2016";
+                $academy['date']     = "Sept. 18-22, 2017";
                 break;
             case "Missoula":
+            case "Granite":
+            case "Mineral":
                 $academy['location'] = "Missoula";
-                $academy['date']     = "April 10-14, 2017";
+                $academy['date']     = "April 9-13, 2018";
                 break;
             case "Ravalli":
                 $academy['location'] = "Hamilton";
-                $academy['date']     = "May 16-20, 2016";
+                $academy['date']     = "TBD";
                 break;
             case "Cascade":
-                $academy['location'] = "TBD";
-                $academy['date']     = "";
+            case "Chouteau":
+            case "Teton":
+            case "Pondera":
+            case "Toole":
+            case "Glacier":
+                $academy['location'] = "Great Falls";
+                $academy['date']     = "Now 29-Fe";
                 break;
             case "Fergus":
                 $academy['location'] = "TBD";
                 $academy['date']     = "";
                 break;
             case "Lewis and Clark":
+            case "North Jefferson":
                 $academy['location'] = "Helena";
-                $academy['date']     = "March 20-24, 2017";
+                $academy['date']     = "March 19-23, 2018";
                 break;
             case "State of Montana":
                 $academy['location'] = "";

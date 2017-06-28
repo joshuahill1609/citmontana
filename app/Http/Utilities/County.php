@@ -294,7 +294,7 @@ class County {
             case "Toole":
             case "Glacier":
                 $academy['location'] = "Great Falls";
-                $academy['date']     = "Now 29-Fe";
+                $academy['date']     = "Nov. 13-17, 2017";
                 break;
             case "Fergus":
                 $academy['location'] = "TBD";
